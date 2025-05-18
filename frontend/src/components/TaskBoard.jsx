@@ -3,7 +3,7 @@ import axios from 'axios';
 import { DragDropContext } from 'react-beautiful-dnd';
 import Column from './Column';
 
-const API_BASE = 'http://localhost:5000/tasks';
+const API_BASE = 'https://taskboard-backend-depu.onrender.com/tasks';
 
 const TaskBoard = () => {
   const [columns, setColumns] = useState({
